@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url(../font/rajdhani/Rajdhani-Medium.ttf) format('OpenType');
+}
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(../font/space-grotesk-cufonfonts/SpaceGrotesk-Regular.otf/) format('OpenType');
+}
+body{
+    margin:0%;
+    padding:0%;
+}
+.page{
+    background-image: url(../Illustrations/Home/Bathome1.png);
+    background-color:black;
+    background-repeat: no-repeat;
+}
+.entete{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    border:2px solid  #c4c4c4;
+    border-top:none;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+.entete ul{
+    display:flex;
+   justify-content: space-around;
+   text-align: center;
+   margin-right: 10%;
+}
+.entete a{
+    justify-content: center;
+    color:white;
+    text-decoration: none;
+    padding:2% 10%;
+}
+.entete li {
+   justify-content:center;
+   align-items: center;
+   list-style-type: none;
+  text-align: center;
+   padding:20% 20% 10% 20%;
+   font-size:30px;
+   font-family: 'Rajdhani';
+}
+.intro{
+    border:1px solid  #c4c4c4;
+    border-bottom: none;
+    margin-left:10% ;
+    margin-right: 10%;
+    text-align: center;
+    color:white;
+    padding-top:20%;
+}
+.intro p{
+    font-size:20px;
+    font-family: 'Space Grotesk';
+}
+.intro input{
+    padding: 2%;
+    opacity: 0.4;
+    text-align: center;
+    margin:2%;
+    color:white;
+    font-weight: bold;
+    border:none;
+    font-family: 'Rajdhani';
+    background-image: linear-gradient(to right,#EDDEBF 40%, #890008 60%);
+}
+.logo{
+    display:grid;
+    margin-left: 95%;
+    margin-top:-25%;
+}
+.texte {
+    border:1px solid  #c4c4c4;
+    border-bottom: none;
+    border-top: none;
+    margin-left:10% ;
+    margin-right: 10%;
+    color:white;
+    padding: 10% 5% 7% 5%;
+}
+.texte p{
+    font-size:20px;
+    text-align:justify;
+}
+.images{
+    margin-top:10%;
+}
+.images figcaption{
+    display:none;
+    width:100%;
+    margin-top:-40%;
+}
+.images figcaption p{
+    padding: 5%;
+    background-image: linear-gradient(to right,#EDDEBF 40%, #890008 60%);
+    opacity: 0.3;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    width:80%;
+    margin-left:15%;
+    margin-top: -20%;
+    border-radius:30%;
+
+}
+.images figcaption span{
+    color:#ffff00;
+}
+.imageslide{
+      margin-bottom: 37%;
+}
+.trait{
+   position:relative;
+}
+.phot{
+    position: absolute;
+    width:100%;
+    object-fit: cover;
+    display: none;
+}
+.nemesis{
+    border:1px solid  #c4c4c4;
+    border-bottom: none;
+    border-top: none;
+    margin-left:10% ;
+    margin-right: 10%;
+    color:white;
+    padding: 10% 5% 10% 5%;
+}
+.nemesis p{
+    font-size:20px;
+    text-align:justify;
+}
+.multimedia{
+    border:1px solid  #c4c4c4;
+    border-bottom: none;
+    border-top: none;
+    margin-left:10% ;
+    margin-right: 10%;
+    color:white;
+    padding: 5% 5% 5% 5%;
+}
+.multimedia figcaption{
+    border:1px solid  #c4c4c4;
+    border:none;
+    border-left:none;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    background-color: rgb(127, 127, 127);
+    width:55%;
+    font-size: 15px;
+    margin-left:40%;
+    margin-top:-55%;
+    padding:4% 4%;
+}
+#film{
+   margin-left: 15%;
+}
+.slide{
+    position :relative;
+}
+#film1, #film2{
+    display:none;
+}
+.video1{
+    display:block;
+}
+.video2{
+    display:none;
+}
+.video3{
+    display:none;
+}
+.page2{
+    background-image: linear-gradient(125deg,rgb(68,63,58) 10%,rgb(50,62,71) 90%);
+    border: 1px solid #c4c4c4;
+    border-left:none;
+    border-right: none;
+   opacity:0.9;
+
+}
+.formulaires{
+    border:1px solid  #c4c4c4;
+    border-bottom: none;
+    border-top: none;
+    margin-left:10% ;
+    margin-right: 10%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:15%;
+    padding-right: 15%;
+    color:white;
+}
+#form{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background :transparent;
+    color:white;
+    width:100%;
+    margin-bottom: 5%;
+}
+.formulaires h1{
+    text-align: center;
+    font-family: 'Rajdhani';
+    margin-bottom:10% ;
+}
+.formulaires h3{
+    
+    font-family: 'Rajdhani';
+}
+.popup-message{
+    display:none;
+    text-align: center;
+    padding:20% 20%;
+    border-radius: 15px;
+    background-image: linear-gradient(125deg,rgb(22,22,20,0.7) 70%,#19587D ) ;
+    opacity:0.8;
+    margin-top:-20%;
+    font-family: 'Rajdhani';
+    font-size: 20px;
+}
+#clik{
+    width:20%;
+    padding: 2%;
+    margin-left:10%;
+    margin-bottom: 10%;
+    text-align: center;
+    background:transparent;
+    color:white;
+    font-weight: bold;
+    font-family: 'Rajdhani';
+    border-image:linear-gradient(to right,#c4c4c4 70%,#19587D );
+    border-image-slice: 1;
+}
+#btn{
+    padding: 2%;
+    opacity: 0.4;
+    margin-left:30%;
+    text-align: center;
+    width:40%;
+    color:white;
+    font-weight: bold;
+    border:none;
+    font-family: 'Rajdhani';
+    background-image: linear-gradient(to right,#EDDEBF 40%, #890008 60%);
+}
+.citation{
+background-color: black;;
+}
+.textcitation{
+
+    border:1px solid  #c4c4c4;
+    border-bottom: none;
+    border-top: none;
+    margin-left:10% ;
+    margin-right: 10%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:10%;
+    padding-right: 15%;
+}
+.textcitation p{
+text-align: center;
+color:white;
+margin-top:5%;
+}
+.textcitation h5{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color:white;
+}
+.citation1{
+    position: relative;
+    object-fit: cover;
+    display:none;
+}
+/* .citation1:first-child{
+    display:block;
+} */
+
+footer{
+background-color: black;
+text-align: center;
+color:white;
+font-size: 10px;
+padding-top:5%;
+padding-bottom: 5%;
+}
+.foot{
+    display:flex;
+    margin-left: 30%;
+    margin-right:30%;
+}
+.foot p{
+    margin-left:2%;
+}
+.Icones img{
+    padding-left:1%;
+    padding-right:1%;
+}
+/* ******************************page Game************************************** */
+.page3{
+    background-image: url(../Illustrations/Game/Batgame1.png);
+    background-color:black;
+    background-repeat: no-repeat;
+}
+.intro1{
+    border:1px solid  #c4c4c4;
+    border-bottom: none;
+    margin-left:10% ;
+    margin-right: 10%;
+    color:white;
+    padding-top:20%;
+}
+.intro1 h1{
+    font-size: 35px;
+    font-family: 'Rajdhani';
+    margin-left:10%;
+}
+.quiz{
+    margin-left:10%;
+    width:55%;
+}
+.intro1 p{
+font-size: 23px;
+margin-left:10%;
+}
+.contenair{
+width:80%;
+border: 1px solid white;
+padding:2%;
+margin-top:2%;
+background-color: #c4c4c4;
+}
+.contenair input{
+    background-color: white;
+    padding: 2%;
+}
+.contenair label{
+    font-size: 20px;
+}
+.btnover{
+    padding: 2%;
+    opacity: 0.4;
+    text-align: center;
+    margin-left:40%;
+    margin-top:10%;
+    color:white;
+    font-weight: bold;
+    border:none;
+    width: 20%;
+    font-size: 20px;
+    font-family: 'Rajdhani';
+    text-decoration: underline;
+    background-image: linear-gradient(to right,#EDDEBF 40%, #890008 60%);
+}
+
+
+
+
+
